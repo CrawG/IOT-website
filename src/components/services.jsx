@@ -1,3 +1,6 @@
+import YoutubeEmbed from "./youtubevideo";
+
+
 export const Services = (props) => {
   return (
     <div id='services' className='text-center'>
@@ -6,6 +9,10 @@ export const Services = (props) => {
           <h2>Media</h2>
           
         </div>
+        <div className="App">
+      {/* <h1>Youtube Embed</h1> */}
+      <YoutubeEmbed embedId="3s53G3R_QJA" />
+    </div>
         {/* <div className='row'>
           {props.data
             ? props.data.map((d, i) => (

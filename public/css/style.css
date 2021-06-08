@@ -329,6 +329,21 @@ header .intro-text {
 #services .service-desc {
 	margin-bottom: 40px;
 }
+/* youtube embedded videos */
+.video-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+  }
+  
+  .video-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+  }
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;

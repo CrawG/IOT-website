@@ -5,14 +5,16 @@ export const Header = (props) => {
         <div className='overlay'>
           <div className='container'>
             <div className='row'>
-              <div className='col-md-3 intro-text'>
+              <div className='col-md-3 col-sm-4  intro-text'>
                 {/* <h1>
                   {props.data ? props.data.title : 'Loading'}
                   <span></span>
-                </h1>
-                <p>{props.data ? props.data.paragraph : 'Loading'}</p> */}
+                </h1> */}
+                <p>{props.data ? props.data.paragraph : 'Loading'}
+                <p>{props.data ? props.data.paragraph2 : 'Loading'}</p>
+                </p>
                 <a
-                  href='#features'
+                  href='#about'
                   className='btn btn-custom btn-lg page-scroll'
                 >
                   Learn More
