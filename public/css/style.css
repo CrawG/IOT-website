@@ -335,6 +335,8 @@ header .intro-text {
 	padding-bottom: 56.25%;
 	position: relative;
 	height: 0;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.05)
+
   }
   
   .video-responsive iframe {
@@ -343,6 +345,8 @@ header .intro-text {
 	height: 100%;
 	width: 100%;
 	position: absolute;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.05)
+
   }
 /* Portfolio Section */
 #portfolio {
